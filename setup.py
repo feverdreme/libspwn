@@ -5,7 +5,8 @@ setuptools.setup(
     scripts=['./scripts/libspwn'],
     author='Jeffrey Huang',
     description='CLI for creating a SPWN library',
-    packages=['libspwn'],
+    url= "https://github.com/feverdreme/libspwn",
+    packages=['src.libspwn'],
     install_requires=[
         'setuptools',
     ],
